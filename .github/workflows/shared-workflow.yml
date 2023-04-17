@@ -1,0 +1,12 @@
+on:
+  workflow_call:
+  
+jobs:
+  steps:
+  - name "Step 1"
+    run: |
+      echo "This is step 1 from the Shared workflow"
+  - name "Step 2"
+    run: |
+      echo "This is step 1 from the Shared workflow"
+      
