@@ -3,7 +3,7 @@ on:
   
 jobs:
   shared-job:
-    runs-on: unbuntu-latest
+    runs-on: ubuntu-latest
     name: "Shared Job"
     steps:
       - name: "Step 1"
