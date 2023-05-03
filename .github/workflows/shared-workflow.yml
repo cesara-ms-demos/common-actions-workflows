@@ -1,6 +1,10 @@
 on:
   workflow_call:
-  
+    inputs:
+        message:
+          required: false
+          type: string
+
 jobs:
   shared-job:
     runs-on: ubuntu-latest
@@ -8,8 +12,8 @@ jobs:
     steps:
       - name: "Step 1"
         run: |
-          echo "This is step 1 from the Shared workflow"
+          echo "This is step 1 from the Shared workflow. ${{inputs.message}}"
       - name: "Step 2"
         run: |
-          echo "This is step 2 from the Shared workflow"
+          echo "This is step 2 from the Shared workflow. ${{inputs.message}}"
 
