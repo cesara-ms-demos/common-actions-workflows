@@ -6,6 +6,9 @@ inputs:
     description: 'Who to greet'
     required: true
     default: 'World'
+    
+    
+    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 outputs:
   random-number:
