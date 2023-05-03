@@ -7,9 +7,6 @@ inputs:
     required: true
     default: 'World'
     
-    
-    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-
 outputs:
   random-number:
     description: "Random number"
